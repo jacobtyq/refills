@@ -78,14 +78,29 @@ body {
 - [Bitters](https://github.com/thoughtbot/bitters): Scaffold styles, variables and structure for Bourbon projects
 - [Refills](https://github.com/thoughtbot/refills): Components and patterns built with Bourbon and Neat
 
-## Credits
-
-[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
-
-Refills is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Tweet your questions or suggestions to [@bourbonsass](https://twitter.com/bourbonsass) and while you’re at it follow us too.
-
-Whenever code for Refills is borrowed or inspired by existing code, we try to credit the original developer/designer in our source code. [Let us know](mailto:design+bourbon@thoughtbot.com) if you think any credit is absent.
-
 ## License
 
 Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). Refills is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+
+Whenever code for Refills is borrowed or inspired by existing code, we try to credit the original developer/designer in our source code. [Let us know](mailto:design+bourbon@thoughtbot.com) if you think any credit is absent.
+
+## Questions and Suggestions
+
+Tweet your questions or suggestions to [@bourbonsass] and while you’re at it
+follow us too.
+
+[@bourbonsass]: https://twitter.com/bourbonsass
+
+## About thoughtbot
+
+![thoughtbot](https://thoughtbot.com/logo.png)
+
+Refills is maintained and funded by thoughtbot, inc.
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+
+We love open source software!
+See [our other projects][community]
+or [hire us][hire] to help build your product.
+
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github
