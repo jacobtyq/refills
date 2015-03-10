@@ -1,0 +1,25 @@
+.search-bar {
+  width: 100%;
+
+  form {  
+    position: relative;
+
+    input[type=search] {
+      @include box-sizing(border-box);
+      display: block;
+      margin: 0;
+      position: relative;
+      width: 100%;
+    }
+
+    button[type=submit] {
+      @include position(absolute, 0em 0em 0em null);
+      padding: 5px 10px;
+
+      img {
+        height: 12px;
+        opacity: 0.7;
+      }
+    }
+  }  
+}
