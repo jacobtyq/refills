@@ -1,0 +1,74 @@
+.modal {
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+
+  label {
+    font-weight: normal;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+
+  .modal-state {
+    display: none;
+  }
+
+  .modal-fade-screen { // overlay
+    @include transition(opacity 0.25s ease);
+    @include position(fixed, 0px 0px 0px 0px);
+    background: rgba(0,0,0, 0.85);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99999;
+
+    @include media($large-screen) {
+      padding-top: 10em;
+    }
+
+    .modal-bg {
+      @include position(absolute, 0px 0px 0px 0px);
+      cursor: pointer;
+    }
+  }
+
+  .modal-close {
+    cursor: pointer;
+  }
+
+  .modal-inner {
+    @include transition(opacity 0.25s ease);
+    background: #fff;
+    margin: auto;
+    max-height: 95%;
+    overflow: auto;
+    position: relative;
+    width: 95%;
+
+    @include media($medium-screen) {
+      max-height: 70%;
+      width: 60%;
+    }
+
+    @include media($large-screen) {
+      width: 50%;
+    }
+  }
+
+  .modal-state:checked + .modal-fade-screen {
+    opacity: 1;
+    visibility: visible;
+
+  .modal-inner {
+      top: 0.5em;
+    }
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal-closed {
+  overflow: auto;
+}
+
+// Based on code by Kasper Mikiewicz
